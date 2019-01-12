@@ -14,7 +14,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.10",
     "siteFonts": [],
-    "uniqCompNum": 14,
+    "uniqCompNum": 13,
     "versionPublish": "4.8.10",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -119,6 +119,10 @@
             "H1": {
               "font-family": "'Raleway', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            "B": {
+              "font-family": "'Playfair Display', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Playfair+Display:400,700&subset=latin,cyrillic"
             }
           }
         },
@@ -252,8 +256,8 @@
           "_styles": {
             "H2": {
               "color": "#da2f56",
-              "font-family": "'Indie Flower', cursive",
-              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
               "text-align": "left"
             }
           }
@@ -436,31 +440,6 @@
           "_anchor": "msg-box3-9"
         },
         {
-          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
-          "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "postToLoad": "10",
-            "facebook": "facebook.com/rhinostoneptn",
-            "twitter": "",
-            "google": "",
-            "youtube": "",
-            "bgColorRadio": false,
-            "bgColor": "#fff",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/cr-home-hero-quartz-countertop-04-16-1979x674.jpg",
-            "overlay": true,
-            "overlayColor": "#7e9b9f",
-            "overlayOpacity": 0.6
-          },
-          "alias": "social-feed",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "feed",
-          "_anchor": "feed-d"
-        },
-        {
           "_params": {
             "showTitle": true,
             "paddingTop": 3,
@@ -511,7 +490,7 @@
           "_anchor": "form1-b",
           "_styles": {
             ".mbr-section-title": {
-              "color": "#fff8e0"
+              "color": "#d3dae7"
             }
           }
         },
@@ -535,13 +514,46 @@
             }
           },
           "text1": "<strong>Address</strong><br>8 Devon Road<br>Pinetown<br><br>\n<strong>Contacts</strong><br>\nEmail: Sales@rhinostone.co.za<br>\nPhone: 083 792 2088<br><br>",
-          "text2": "<strong>Links</strong><ul><li><a href=\"http://facebook.com/rhinostoneptn\">Facebook</a></li></ul>",
+          "text2": "<p><a href=\"http://facebook.com/rhinostoneptn\" target=\"_blank\"></a><strong>Links</strong><ul><li><a href=\"http://facebook.com/rhinostoneptn\">Facebook</a></li></ul></p>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
           "_name": "contacts2",
           "_anchor": "contacts2-c"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1016.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#8f99af",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5,
+            "counters": true,
+            "facebook": true,
+            "twitter": false,
+            "google": false
+          },
+          "text": "Share This Page!",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-d",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#efefef",
+              "text-align": "right",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          }
         }
       ]
     }

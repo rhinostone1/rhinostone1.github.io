@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
 
 
 
@@ -17,9 +20,12 @@
 #header4-3 H1 {
   font-family: 'Raleway', sans-serif;
 }
+#header4-3 B {
+  font-family: 'Playfair Display', sans-serif;
+}
 #slider-4 H2 {
   color: #da2f56;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Montserrat', sans-serif;
   text-align: left;
 }
 #msg-box3-9 .mbr-header .mbr-header__text {
@@ -29,5 +35,10 @@
   text-align: center;
 }
 #form1-b .mbr-section-title {
-  color: #fff8e0;
+  color: #d3dae7;
+}
+#social-buttons1-d .mbr-section-title {
+  color: #efefef;
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
 }
