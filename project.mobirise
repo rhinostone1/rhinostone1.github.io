@@ -90,7 +90,7 @@
           "_params": {
             "showTitle": true,
             "showText": false,
-            "showButtons": true,
+            "showButtons": false,
             "showArrow": false,
             "contentAlign": "left",
             "bgImageRadio": true,
@@ -108,7 +108,7 @@
           },
           "title": "<b>Rhino Stone</b>",
           "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"index.html#pricing-table1-a\" data-toolbar=\"-mbrBtnMove\">Granite</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"index.html#pricing-table1-a\" data-toolbar=\"-mbrBtnMove\">Quartz</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"index.html#content4-7\" data-toolbar=\"-mbrBtnMove\">Granite</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"index.html#content4-7\" data-toolbar=\"-mbrBtnMove\">Quartz</a>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
